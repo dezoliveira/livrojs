@@ -8,7 +8,7 @@ function calcularValor(){
 
   var pagar = Math.ceil(tempo / 15) * valor;
 
-  outValor.textContent = "Valor a Pagar R$: " + pagar
+  outValor.textContent = "Valor a Pagar R$: " + pagar.toFixed(2)
 }
 
 var btCalcular = document.getElementById("btCalcular")
